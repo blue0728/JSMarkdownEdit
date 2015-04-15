@@ -3,7 +3,7 @@ JSMarkdownEdit
 
 ## JSMarkdownEdit 
 
-+ 整合markdown.css marked.js editor.js  支持require.js 方式调用
++ 整合markdown.css marked.js editor.js  支持requirejs 方式调用
 + markdown.css 前台显示css用 .markdown-body 包裹markdown HTML
 + marked.js markdown js 解析器  nodejs 使用marked 模块解析 npm install marked --save
 + editor.js html页面编辑器
@@ -11,7 +11,7 @@ JSMarkdownEdit
 
 ## require.js 调用  
 
-+ 请先配置好require path 路径
++ 请先配置好requirejs path 路径
 + 
   ```
       require(['markdown'], function (tip,markdown) {
